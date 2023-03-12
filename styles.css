@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    height: auto;
+}
+
+.image-container {
+    padding: 0;
+}
+
+.song-info {
+    padding: 2rem;
+    color: white;
+    background-color: #2e2e2e;
+}
+
+.links a {
+    display: block;
+    margin-top: 1rem;
+}
+
+.header {
+    text-align: left;
+}
+
+.header p {
+    font-weight: 300;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("images/pristine.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.blur-filter {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.btn {
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.link-text {
+    padding-left: 5px;
+}
+
+#spotify {
+    background-color: #30d567;
+    color: white;
+}
+
+#apple-music {
+    background-color: #ff2d55;
+    color: white;
+
+}
+
+#youtube {
+    background-color: red;
+    color: white;
+
+}
